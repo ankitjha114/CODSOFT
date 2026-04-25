@@ -1,0 +1,26 @@
+{
+    "ankitsir449@gmail.com": {
+        "name": "Ankit Sir",
+        "mobile": "09625434520",
+        "age": 20,
+        "preferred_genres": [
+            "Comedy",
+            "Action",
+            "Sci-Fi",
+            "Romance",
+            "Thriller",
+            "Horror",
+            "Drama"
+        ],
+        "prediction_history": [
+            {
+                "description": "Monkey King",
+                "predicted_genre": "short"
+            },
+            {
+                "description": "Off the Beaten Track (2010)",
+                "predicted_genre": "music"
+            }
+        ]
+    }
+}

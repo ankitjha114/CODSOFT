@@ -104,7 +104,6 @@ def delete_user(email):
 
 if __name__ == "__main__":
     
-    # Register User
     register_user(
         name="Ankit",
         email="ankit@gmail.com",
@@ -113,7 +112,6 @@ if __name__ == "__main__":
         genres=["drama", "action"]
     )
 
-    # Add Prediction
     add_prediction_history(
         "ankit@gmail.com",
         "A haunted house with ghosts and dark secrets"
@@ -124,16 +122,13 @@ if __name__ == "__main__":
         "A romantic love story between two strangers"
     )
 
-    # Get User Info
     print("\nUser Data:")
     print(get_user("ankit@gmail.com"))
 
-    # Get History
     print("\nPrediction History:")
     print(get_user_history("ankit@gmail.com"))
 
-    # Update Preferences
     update_user_genres("ankit@gmail.com", ["horror", "thriller"])
 
-    # Delete User (optional)
+    # Delete User
     # delete_user("ankit@gmail.com")
